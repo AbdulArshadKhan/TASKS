@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Registration Success </title>
+    <style >
+      h1,h2
+      {
+        width:60%;
+        /*border: 2px dashed green;
+        */
+        margin: 0px auto;
+        padding: 10px;
+        text-align: center;
+      }
+      p
+      {
+        margin-top: 20px;
+        /*border:2px dotted blue;*/ 
+      }
+      h1
+      {
+        margin-top: 20px;
+      }
+      #result
+      {
+        /*border:2px dashed red;
+        */height: 600px;
+      }
+      #indiv
+      {
+          /*border: 2px solid blue;
+          */margin: 0px auto;
+        width:94%;
+        padding-left: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Registration Successful</h1>
+    <div id='details'>
+      <h2> Your Details </h2>
+      <div class="row">
+        <div class="col-sm-2"></div>
+        <div id='result' class='col-sm-9'>
+          <div id='indiv'>
+            <p>First Name : {{fname}}</p>
+            <p>Last Name : {{lname}}</p>
+            <p>Email : {{email}}</p>
+            <p>Phone Number : {{pno}}</p>
+            <p>Date of Birth : {{dob}}</p>
+            <p>Username : {{uname}}</p>
+            <p>Password : {{pwd}}</p>
+            <p>Gender : {{gen}}</p>
+            <p>Languages Known  : {{lan}}</p>
+            <p>Address  : {{adr}}</p>
+          <div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  </body>
+</html>
